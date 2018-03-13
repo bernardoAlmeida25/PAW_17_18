@@ -1,0 +1,48 @@
+The default position of an element can be changed by setting its position property. The position property can take one of four values:
+
+static - the default value (it does not need to be specified)
+relative
+absolute - all other elements on the page will ignore the element and act like it is not present on the page.
+fixed
+
+top - moves the element down.
+bottom - moves the element up.
+left - moves the element right.
+right - moves the element left.
+
+
+The z-index property controls how far "back" or how far "forward" an element should appear on the web page.
+
+The z-index property accepts integer values. Depending on their values, the integers instruct the browser on the order in which elements should be displayed on the web page.
+
+If you're simply interested in moving an element as far left or as far right as possible on the page, you can use the float property.
+
+The float property can be set to one of two values:
+
+left - this value will move, or float, elements as far left as possible.
+right - this value will move elements as far right as possible.
+
+
+
+The clear property specifies how elements should behave when they bump into each other on the page. It can take on one of the following values:
+
+left — the left side of the element will not touch any other element within the same containing element.
+right — the right side of the element will not touch any other element within the same containing element.
+both — neither side of the element will touch any other element within the same containing element.
+none — the element can touch either side.
+
+
+
+ position property allows you to specify the position of an element in three different ways.
+When set to relative, an element's position is relative to its default position on the page.
+When set to absolute, an element's position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.
+When set to fixed, an element's position can be pinned to any part of the web page. The element will remain in view no matter what.
+The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.
+The display property allows you control how an element flows vertically and horizontally a document.
+inline elements take up as little space as possible, and they cannot have manually-adjusted width or height.
+block elements take up the width of their container and can have manually-adjusted heights.
+inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.
+The float property can move elements as far left or as far right as possible on a web page.
+You can clear an element's left or right side (or both) using the clear property.
+
+
