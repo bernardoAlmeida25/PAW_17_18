@@ -1,0 +1,70 @@
+Borders
+A border is a line that surrounds an element, like a frame around a painting. Borders can be set with a specific width, style, and color.
+
+width — The thickness of the border. A border's thickness can be set in pixels or with one of the following keywords: thin, medium, or thick.
+
+style — The design of the border. Web browsers can render any of 10 different styles. Some of these styles include: none, dotted, and solid.
+
+color — The color of the border. Web browsers can render colors using a few different formats, including 140 built-in color keywords.
+
+Border Radius
+Ever since we revealed the borders of boxes, you may have noticed that the borders highlight the true shape of an element's box: square. Thanks to CSS, a border doesn't have to be square.
+
+You can modify the corners of an element's border box with the border-radius property.
+
+
+Padding I
+The space between the contents of a box and the borders of a box is known as padding. Padding is like the space between a picture and the frame surrounding it. In CSS, you can modify this space with the padding property.
+Another implementation of the padding property lets you specify exactly how much padding there should be on each side of the content in a single declaration.
+
+p.content-header {
+  padding: 5px 10px;
+}
+The first value, 5px, sets the padding value for the top and bottom sides of the content. The second value, 10px, sets the padding value for the left and right sides of the content.
+
+
+Margins I
+So far you've learned about the following components of the box model: content, borders, and padding. The fourth and final component of the box model is margin.
+
+Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space.
+A similar implementation of the margin property is used to specify exactly how much margin there should be on each side of the box in a single declaration.
+
+Minimum and Maximum Height and Width
+Because a web page can be viewed through displays of differing screen size, the content on the web page can suffer from those changes in size. To avoid this problem, CSS offers two properties that can limit how narrow or how wide an element's box can be sized to.
+min-width — this property ensures a minimum width of an element's box.
+max-width — this property ensures a maximum width of an element's box.
+
+
+The overflow property controls what happens to content that spills, or overflows, outside its box. It can be set to one of the following values:
+
+hidden - when set to this value, any content that overflows will be hidden from view.
+scroll - when set to this value, a scrollbar will be added to the element's box so that the rest of the content can be viewed by scrolling.
+visible - when set to this value, the overflow content will be displayed outside of the containing element. Note, this is the default value.
+
+
+Visibility
+Elements can be hidden from view with the visibility property.
+
+The visibility property can be set to one of the following values:
+
+hidden — hides an element.
+visible — displays an element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
