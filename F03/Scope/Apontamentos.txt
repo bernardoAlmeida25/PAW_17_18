@@ -1,0 +1,11 @@
+Scope refers to where a variable can be accessed in a program. While some variables can be accessed from anywhere within a program, other variables may only be available in a specific context. Scope depends entirely on where a variable is declared.
+
+You can think of scope like the view of the night sky from your window. Everyone who lives on the planet Earth is in the global scope of the stars. The stars are accessible globally. Meanwhile, if you live in a city, you may see the city skyline or the river. The skyline and river are only accessible locally in your city, but you can still see the stars that are available globally.
+
+---------- xxx -----------
+
+This unit introduced you to scope.
+
+Scope is the idea in programming that some variables are accessible/inaccessible from other parts of the program.
+Global Scope refers to variables that are accessible to every part of the program.
+Block Scope refers to variables that are accessible only within the block they are defined.
