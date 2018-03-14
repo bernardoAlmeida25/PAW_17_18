@@ -22,3 +22,25 @@
     bottom: 0;
     align-content: center;
 }
+
+.posts{
+    border: 1px solid blue;
+}
+
+.grid{
+    display: grid;
+    margin-left: 45%;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 2px blue solid;
+    grid-template-columns: 25% 25% 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+}
+
+.tags{
+    border: 1px solid blue;
+    width: 100px;
+}
